@@ -16,12 +16,6 @@ except:
     import threading
 #This module helps efficiently get random codes (no repeats / suspicious patterns)
 try:
-    import pyfuncts
-except:
-    os.system("pip install pyfuncts") 
-    import pyfuncts
-#This module is used for system help
-try:
     import sys
 except:
     os.system("pip install sys") 
